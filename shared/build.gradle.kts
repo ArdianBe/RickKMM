@@ -44,7 +44,7 @@ kotlin {
                 implementation("com.squareup.sqldelight:runtime:1.5.5")
                 implementation("com.squareup.sqldelight:coroutines-extensions:1.5.5")
                 implementation("org.jetbrains.kotlinx:kotlinx-datetime:0.4.0")
-                implementation("io.insert-koin:koin-core:3.4.0")
+                implementation("io.insert-koin:koin-core:3.2.0")
             }
         }
         val commonTest by getting {
@@ -57,7 +57,7 @@ kotlin {
                 implementation("com.squareup.sqldelight:android-driver:1.5.5")
                 implementation("androidx.appcompat:appcompat:1.6.1")
                 implementation("androidx.activity:activity-compose:1.7.2")
-                implementation("io.insert-koin:koin-android:3.4.0")
+                implementation("io.insert-koin:koin-android:3.2.0")
             }
         }
         val androidUnitTest by getting
